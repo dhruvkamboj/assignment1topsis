@@ -105,6 +105,49 @@ A web-based TOPSIS application was developed using **Streamlit** to make the sol
 - PyPI
 
 ---
+## Web Application Link
+
+The TOPSIS web application has been deployed using **Streamlit Community Cloud** and is accessible at:
+
+🔗 **https://topsiswebservice.streamlit.app/**
+
+---
+
+## Sample Input
+
+The following dataset was used as a sample input for testing the TOPSIS implementation:
+
+| Fund Name | P1  | P2  | P3 | P4  | P5   |
+|----------|-----|-----|----|-----|------|
+| M1 | 0.93 | 0.86 | 6.4 | 61.3 | 17.37 |
+| M2 | 0.66 | 0.44 | 4.2 | 56.8 | 15.53 |
+| M3 | 0.80 | 0.64 | 3.7 | 67.0 | 18.04 |
+| M4 | 0.77 | 0.59 | 6.5 | 39.0 | 11.72 |
+| M5 | 0.69 | 0.48 | 6.4 | 43.5 | 12.77 |
+| M6 | 0.89 | 0.79 | 6.5 | 33.6 | 10.45 |
+| M7 | 0.78 | 0.61 | 6.6 | 60.7 | 17.17 |
+| M8 | 0.85 | 0.72 | 3.9 | 43.4 | 12.22 |
+
+---
+
+## Sample Output
+
+After applying the TOPSIS algorithm, the following scores and ranks were obtained:
+
+| Fund Name | P1  | P2  | P3 | P4  | P5   | Topsis Score | Rank |
+|----------|-----|-----|----|-----|------|--------------|------|
+| M1 | 0.93 | 0.86 | 6.4 | 61.3 | 17.37 | 0.7227040997 | 2 |
+| M2 | 0.66 | 0.44 | 4.2 | 56.8 | 15.53 | 0.5532476493 | 4 |
+| M3 | 0.80 | 0.64 | 3.7 | 67.0 | 18.04 | 0.8029144095 | 1 |
+| M4 | 0.77 | 0.59 | 6.5 | 39.0 | 11.72 | 0.2066618740 | 8 |
+| M5 | 0.69 | 0.48 | 6.4 | 43.5 | 12.77 | 0.2493591442 | 7 |
+| M6 | 0.89 | 0.79 | 6.5 | 33.6 | 10.45 | 0.2912110562 | 6 |
+| M7 | 0.78 | 0.61 | 6.6 | 60.7 | 17.17 | 0.6237356040 | 3 |
+| M8 | 0.85 | 0.72 | 3.9 | 43.4 | 12.22 | 0.4363182196 | 5 |
+
+**Rank 1 represents the best alternative based on TOPSIS score.**
+
+---
 
 ## Conclusion
 This project demonstrates the complete implementation of TOPSIS, including command-line execution, Python package creation, and deployment as a web application using secure and scalable practices.
