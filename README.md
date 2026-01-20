@@ -30,6 +30,19 @@ The best alternative is the one that is:
 It is widely used in engineering, management, and data science applications.
 
 ---
+## Methodology
+
+The TOPSIS method was implemented using the following steps:
+
+1. Read the input dataset and extract decision criteria.  
+2. Normalize the decision matrix to remove scale differences.  
+3. Apply weights to obtain the weighted normalized matrix.  
+4. Determine the ideal best and ideal worst solutions.  
+5. Calculate TOPSIS scores and rank alternatives based on closeness to the ideal solution.
+
+Higher TOPSIS scores indicate better alternatives.
+
+---
 
 # Part I – Command Line TOPSIS
 
