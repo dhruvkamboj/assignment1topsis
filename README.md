@@ -124,6 +124,20 @@ The TOPSIS web application has been deployed using **Streamlit Community Cloud**
 
 🔗 **https://topsiswebservice.streamlit.app/**
 
+## Streamlit Inactivity Notice
+
+Since the application is deployed on **Streamlit Community Cloud**, it may enter a **sleep state** after a period of inactivity.
+
+When this happens, the following message is displayed:
+
+> *“This app has gone to sleep due to inactivity. Would you like to wake it back up?”*
+
+To resume the application:
+- Click **“Yes, get this app back up!”**
+- Wait a few seconds for the app to restart
+
+This behavior is normal for free-tier Streamlit deployments and does not indicate any issue with the application.
+
 ---
 
 ## Sample Input
