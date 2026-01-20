@@ -2,9 +2,9 @@
 
 ## Course Details
 - **Course Code:** UCS654  
-- **Course Name:** Data Science Lab  
+- **Course Name:** Predictive Analytics Using Statistics  
 - **Assignment:** TOPSIS (Part I, II & III)  
-- **Student Name:** Dhruv  
+- **Student Name:** Dhruv Kamboj
 - **Roll Number:** 102303645  
 
 ---
